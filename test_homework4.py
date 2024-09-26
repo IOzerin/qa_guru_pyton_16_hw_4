@@ -1,5 +1,3 @@
-
-
 def test_greeting():
     """
     Напишите программу, которая выводит на экран приветствие.
@@ -54,7 +52,20 @@ def test_random_list():
     Создайте список из 10 случайных чисел от 1 до 100 (включая обе границы) и отсортируйте его по возрастанию.
     """
     # TODO создайте список
-    l = []
+    import random
+    l = [
+        random.randint(0, 101),
+        random.randint(0, 101),
+        random.randint(0, 101),
+        random.randint(0, 101),
+        random.randint(0, 101),
+        random.randint(0, 101),
+        random.randint(0, 101),
+        random.randint(0, 101),
+        random.randint(0, 101),
+        random.randint(0, 101)
+    ]
+    l = sorted(l)
 
     assert len(l) == 10
     assert all(l[i] <= l[i + 1] for i in range(len(l) - 1))
