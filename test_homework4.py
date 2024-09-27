@@ -54,16 +54,16 @@ def test_random_list():
     # TODO создайте список
     import random
     l = [
-        random.randint(0, 101),
-        random.randint(0, 101),
-        random.randint(0, 101),
-        random.randint(0, 101),
-        random.randint(0, 101),
-        random.randint(0, 101),
-        random.randint(0, 101),
-        random.randint(0, 101),
-        random.randint(0, 101),
-        random.randint(0, 101)
+        random.randint(0, 100),
+        random.randint(0, 100),
+        random.randint(0, 100),
+        random.randint(0, 100),
+        random.randint(0, 100),
+        random.randint(0, 100),
+        random.randint(0, 100),
+        random.randint(0, 100),
+        random.randint(0, 100),
+        random.randint(0, 100)
     ]
     l = sorted(l)
 
